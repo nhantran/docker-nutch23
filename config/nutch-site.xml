@@ -3,8 +3,12 @@
 
 <configuration>
   <property>
-    <name>storage.data.store.class</name>
-    <value>org.apache.gora.cassandra.store.CassandraStore</value>
-    <description>Default class for storing data</description>
-  </property>
+		<name>storage.data.store.class</name>
+		<value>org.apache.gora.cassandra.store.CassandraStore</value>
+		<description>Default class for storing data</description>
+	</property>
+	<property>
+		<name>http.agent.name</name>
+		<value>My Nutch Spider</value>
+	</property>
 </configuration>
